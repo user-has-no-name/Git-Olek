@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		1F5C79DB27B248140081D3E0 /* GlobalExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C79DA27B248140081D3E0 /* GlobalExtensionsTests.swift */; };
 		1F5C79DD27B253570081D3E0 /* RepositoryListVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C79DC27B253570081D3E0 /* RepositoryListVCTests.swift */; };
-		1F5C79DF27B266F90081D3E0 /* APIServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C79DE27B266F90081D3E0 /* APIServiceTests.swift */; };
 		1F5DB49A27AFF8BF000F0359 /* EmptyResponseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5DB49827AFF8BF000F0359 /* EmptyResponseCell.swift */; };
 		1F5DB49B27AFF8BF000F0359 /* EmptyResponseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F5DB49927AFF8BF000F0359 /* EmptyResponseCell.xib */; };
 		1F7F3D1B27AD40C000EE1324 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7F3D1A27AD40C000EE1324 /* AppDelegate.swift */; };
@@ -50,7 +49,6 @@
 /* Begin PBXFileReference section */
 		1F5C79DA27B248140081D3E0 /* GlobalExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalExtensionsTests.swift; sourceTree = "<group>"; };
 		1F5C79DC27B253570081D3E0 /* RepositoryListVCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListVCTests.swift; sourceTree = "<group>"; };
-		1F5C79DE27B266F90081D3E0 /* APIServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceTests.swift; sourceTree = "<group>"; };
 		1F5DB49827AFF8BF000F0359 /* EmptyResponseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyResponseCell.swift; sourceTree = "<group>"; };
 		1F5DB49927AFF8BF000F0359 /* EmptyResponseCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyResponseCell.xib; sourceTree = "<group>"; };
 		1F7F3D1727AD40C000EE1324 /* GitOlek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitOlek.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -149,7 +147,6 @@
 			children = (
 				1F5C79DA27B248140081D3E0 /* GlobalExtensionsTests.swift */,
 				1F5C79DC27B253570081D3E0 /* RepositoryListVCTests.swift */,
-				1F5C79DE27B266F90081D3E0 /* APIServiceTests.swift */,
 			);
 			path = GitOlekTests;
 			sourceTree = "<group>";
@@ -335,7 +332,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F5C79DB27B248140081D3E0 /* GlobalExtensionsTests.swift in Sources */,
-				1F5C79DF27B266F90081D3E0 /* APIServiceTests.swift in Sources */,
 				1F5C79DD27B253570081D3E0 /* RepositoryListVCTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
