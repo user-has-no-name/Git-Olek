@@ -7,15 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F5C79DB27B248140081D3E0 /* GlobalExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C79DA27B248140081D3E0 /* GlobalExtensionsTests.swift */; };
+		1F5C79DD27B253570081D3E0 /* RepositoryListVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C79DC27B253570081D3E0 /* RepositoryListVCTests.swift */; };
+		1F5C79DF27B266F90081D3E0 /* APIServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C79DE27B266F90081D3E0 /* APIServiceTests.swift */; };
+		1F5DB49A27AFF8BF000F0359 /* EmptyResponseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5DB49827AFF8BF000F0359 /* EmptyResponseCell.swift */; };
+		1F5DB49B27AFF8BF000F0359 /* EmptyResponseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F5DB49927AFF8BF000F0359 /* EmptyResponseCell.xib */; };
 		1F7F3D1B27AD40C000EE1324 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7F3D1A27AD40C000EE1324 /* AppDelegate.swift */; };
 		1F7F3D1D27AD40C000EE1324 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7F3D1C27AD40C000EE1324 /* SceneDelegate.swift */; };
-		1F7F3D1F27AD40C000EE1324 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7F3D1E27AD40C000EE1324 /* ViewController.swift */; };
+		1F7F3D1F27AD40C000EE1324 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7F3D1E27AD40C000EE1324 /* SearchVC.swift */; };
 		1F7F3D2227AD40C000EE1324 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F7F3D2027AD40C000EE1324 /* Main.storyboard */; };
 		1F7F3D2427AD40C300EE1324 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F7F3D2327AD40C300EE1324 /* Assets.xcassets */; };
 		1F7F3D2727AD40C300EE1324 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F7F3D2527AD40C300EE1324 /* LaunchScreen.storyboard */; };
-		1F7F3D3227AD40C300EE1324 /* GitOlekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7F3D3127AD40C300EE1324 /* GitOlekTests.swift */; };
-		1F7F3D3C27AD40C300EE1324 /* GitOlekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7F3D3B27AD40C300EE1324 /* GitOlekUITests.swift */; };
-		1F7F3D3E27AD40C300EE1324 /* GitOlekUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7F3D3D27AD40C300EE1324 /* GitOlekUITestsLaunchTests.swift */; };
+		1F7F3D4C27AD42C900EE1324 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1F7F3D4B27AD42C900EE1324 /* Alamofire */; };
+		1F7F3D4E27AD69CC00EE1324 /* RepositoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7F3D4D27AD69CC00EE1324 /* RepositoryModel.swift */; };
+		1F7F3D5027AD834C00EE1324 /* RepositoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7F3D4F27AD834C00EE1324 /* RepositoryCell.swift */; };
+		1F7F3D5227AD874200EE1324 /* RepositoryListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7F3D5127AD874100EE1324 /* RepositoryListVC.swift */; };
+		1F7F3D5427AD87F600EE1324 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7F3D5327AD87F600EE1324 /* Constants.swift */; };
+		1F8582CE27AE9B1100144710 /* IssuesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8582CD27AE9B1100144710 /* IssuesModel.swift */; };
+		1F8582D127AEA23A00144710 /* IssueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8582CF27AEA23A00144710 /* IssueCell.swift */; };
+		1F8582D227AEA23A00144710 /* IssueCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F8582D027AEA23A00144710 /* IssueCell.xib */; };
+		1F8582D427AEAE2900144710 /* PullsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8582D327AEAE2900144710 /* PullsModel.swift */; };
+		1F8582D727AEB40700144710 /* PullRequestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8582D527AEB40600144710 /* PullRequestCell.swift */; };
+		1F8582D827AEB40700144710 /* PullRequestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F8582D627AEB40700144710 /* PullRequestCell.xib */; };
+		1F8B329527ADAC9F0002653F /* RepositoryDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8B329427ADAC9F0002653F /* RepositoryDetailsVC.swift */; };
+		1F8B329727ADB3E50002653F /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8B329627ADB3E50002653F /* APIService.swift */; };
+		1FB3993427B0A0BE00DC2FBE /* RepositoryDetailsTableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB3993327B0A0BE00DC2FBE /* RepositoryDetailsTableViewExtension.swift */; };
+		1FB3993627B0A13500DC2FBE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB3993527B0A13500DC2FBE /* Extensions.swift */; };
+		1FB3993927B0A50900DC2FBE /* RepositoryListsTableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB3993827B0A50900DC2FBE /* RepositoryListsTableViewExtension.swift */; };
+		1FB3993B27B0A59000DC2FBE /* RepositoryListSearchBarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB3993A27B0A59000DC2FBE /* RepositoryListSearchBarExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,29 +45,39 @@
 			remoteGlobalIDString = 1F7F3D1627AD40C000EE1324;
 			remoteInfo = GitOlek;
 		};
-		1F7F3D3827AD40C300EE1324 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1F7F3D0F27AD40C000EE1324 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1F7F3D1627AD40C000EE1324;
-			remoteInfo = GitOlek;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F5C79DA27B248140081D3E0 /* GlobalExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalExtensionsTests.swift; sourceTree = "<group>"; };
+		1F5C79DC27B253570081D3E0 /* RepositoryListVCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListVCTests.swift; sourceTree = "<group>"; };
+		1F5C79DE27B266F90081D3E0 /* APIServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceTests.swift; sourceTree = "<group>"; };
+		1F5DB49827AFF8BF000F0359 /* EmptyResponseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyResponseCell.swift; sourceTree = "<group>"; };
+		1F5DB49927AFF8BF000F0359 /* EmptyResponseCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyResponseCell.xib; sourceTree = "<group>"; };
 		1F7F3D1727AD40C000EE1324 /* GitOlek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitOlek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F7F3D1A27AD40C000EE1324 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F7F3D1C27AD40C000EE1324 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1F7F3D1E27AD40C000EE1324 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F7F3D1E27AD40C000EE1324 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		1F7F3D2127AD40C000EE1324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F7F3D2327AD40C300EE1324 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F7F3D2627AD40C300EE1324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F7F3D2827AD40C300EE1324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F7F3D2D27AD40C300EE1324 /* GitOlekTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitOlekTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F7F3D3127AD40C300EE1324 /* GitOlekTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitOlekTests.swift; sourceTree = "<group>"; };
-		1F7F3D3727AD40C300EE1324 /* GitOlekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitOlekUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F7F3D3B27AD40C300EE1324 /* GitOlekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitOlekUITests.swift; sourceTree = "<group>"; };
-		1F7F3D3D27AD40C300EE1324 /* GitOlekUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitOlekUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1F7F3D4D27AD69CC00EE1324 /* RepositoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryModel.swift; sourceTree = "<group>"; };
+		1F7F3D4F27AD834C00EE1324 /* RepositoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryCell.swift; sourceTree = "<group>"; };
+		1F7F3D5127AD874100EE1324 /* RepositoryListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListVC.swift; sourceTree = "<group>"; };
+		1F7F3D5327AD87F600EE1324 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1F8582CD27AE9B1100144710 /* IssuesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssuesModel.swift; sourceTree = "<group>"; };
+		1F8582CF27AEA23A00144710 /* IssueCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueCell.swift; sourceTree = "<group>"; };
+		1F8582D027AEA23A00144710 /* IssueCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IssueCell.xib; sourceTree = "<group>"; };
+		1F8582D327AEAE2900144710 /* PullsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullsModel.swift; sourceTree = "<group>"; };
+		1F8582D527AEB40600144710 /* PullRequestCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullRequestCell.swift; sourceTree = "<group>"; };
+		1F8582D627AEB40700144710 /* PullRequestCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PullRequestCell.xib; sourceTree = "<group>"; };
+		1F8B329427ADAC9F0002653F /* RepositoryDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryDetailsVC.swift; sourceTree = "<group>"; };
+		1F8B329627ADB3E50002653F /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		1FB3993327B0A0BE00DC2FBE /* RepositoryDetailsTableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryDetailsTableViewExtension.swift; sourceTree = "<group>"; };
+		1FB3993527B0A13500DC2FBE /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		1FB3993827B0A50900DC2FBE /* RepositoryListsTableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListsTableViewExtension.swift; sourceTree = "<group>"; };
+		1FB3993A27B0A59000DC2FBE /* RepositoryListSearchBarExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListSearchBarExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F7F3D4C27AD42C900EE1324 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,22 +96,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1F7F3D3427AD40C300EE1324 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F5DB49727AFD4AB000F0359 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1F7F3D1E27AD40C000EE1324 /* SearchVC.swift */,
+				1FB3993727B0A4D200DC2FBE /* RepositoryLists */,
+				1FB3993227B0A09500DC2FBE /* RepositoryDetails */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		1F7F3D0E27AD40C000EE1324 = {
 			isa = PBXGroup;
 			children = (
 				1F7F3D1927AD40C000EE1324 /* GitOlek */,
 				1F7F3D3027AD40C300EE1324 /* GitOlekTests */,
-				1F7F3D3A27AD40C300EE1324 /* GitOlekUITests */,
 				1F7F3D1827AD40C000EE1324 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,7 +123,6 @@
 			children = (
 				1F7F3D1727AD40C000EE1324 /* GitOlek.app */,
 				1F7F3D2D27AD40C300EE1324 /* GitOlekTests.xctest */,
-				1F7F3D3727AD40C300EE1324 /* GitOlekUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,10 +130,13 @@
 		1F7F3D1927AD40C000EE1324 /* GitOlek */ = {
 			isa = PBXGroup;
 			children = (
+				1F8B329627ADB3E50002653F /* APIService.swift */,
+				1FB3993527B0A13500DC2FBE /* Extensions.swift */,
+				1FD497B927AF3D570052578B /* Models */,
+				1FD497B827AF3D2C0052578B /* Views */,
+				1F5DB49727AFD4AB000F0359 /* Controllers */,
 				1F7F3D1A27AD40C000EE1324 /* AppDelegate.swift */,
 				1F7F3D1C27AD40C000EE1324 /* SceneDelegate.swift */,
-				1F7F3D1E27AD40C000EE1324 /* ViewController.swift */,
-				1F7F3D2027AD40C000EE1324 /* Main.storyboard */,
 				1F7F3D2327AD40C300EE1324 /* Assets.xcassets */,
 				1F7F3D2527AD40C300EE1324 /* LaunchScreen.storyboard */,
 				1F7F3D2827AD40C300EE1324 /* Info.plist */,
@@ -113,18 +147,56 @@
 		1F7F3D3027AD40C300EE1324 /* GitOlekTests */ = {
 			isa = PBXGroup;
 			children = (
-				1F7F3D3127AD40C300EE1324 /* GitOlekTests.swift */,
+				1F5C79DA27B248140081D3E0 /* GlobalExtensionsTests.swift */,
+				1F5C79DC27B253570081D3E0 /* RepositoryListVCTests.swift */,
+				1F5C79DE27B266F90081D3E0 /* APIServiceTests.swift */,
 			);
 			path = GitOlekTests;
 			sourceTree = "<group>";
 		};
-		1F7F3D3A27AD40C300EE1324 /* GitOlekUITests */ = {
+		1FB3993227B0A09500DC2FBE /* RepositoryDetails */ = {
 			isa = PBXGroup;
 			children = (
-				1F7F3D3B27AD40C300EE1324 /* GitOlekUITests.swift */,
-				1F7F3D3D27AD40C300EE1324 /* GitOlekUITestsLaunchTests.swift */,
+				1F8B329427ADAC9F0002653F /* RepositoryDetailsVC.swift */,
+				1FB3993327B0A0BE00DC2FBE /* RepositoryDetailsTableViewExtension.swift */,
 			);
-			path = GitOlekUITests;
+			path = RepositoryDetails;
+			sourceTree = "<group>";
+		};
+		1FB3993727B0A4D200DC2FBE /* RepositoryLists */ = {
+			isa = PBXGroup;
+			children = (
+				1F7F3D5127AD874100EE1324 /* RepositoryListVC.swift */,
+				1FB3993827B0A50900DC2FBE /* RepositoryListsTableViewExtension.swift */,
+				1FB3993A27B0A59000DC2FBE /* RepositoryListSearchBarExtension.swift */,
+			);
+			path = RepositoryLists;
+			sourceTree = "<group>";
+		};
+		1FD497B827AF3D2C0052578B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1F7F3D4F27AD834C00EE1324 /* RepositoryCell.swift */,
+				1F7F3D2027AD40C000EE1324 /* Main.storyboard */,
+				1F8582CF27AEA23A00144710 /* IssueCell.swift */,
+				1F8582D027AEA23A00144710 /* IssueCell.xib */,
+				1F8582D527AEB40600144710 /* PullRequestCell.swift */,
+				1F8582D627AEB40700144710 /* PullRequestCell.xib */,
+				1F5DB49827AFF8BF000F0359 /* EmptyResponseCell.swift */,
+				1F5DB49927AFF8BF000F0359 /* EmptyResponseCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1FD497B927AF3D570052578B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1F7F3D5327AD87F600EE1324 /* Constants.swift */,
+				1F7F3D4D27AD69CC00EE1324 /* RepositoryModel.swift */,
+				1F8582D327AEAE2900144710 /* PullsModel.swift */,
+				1F8582CD27AE9B1100144710 /* IssuesModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +215,9 @@
 			dependencies = (
 			);
 			name = GitOlek;
+			packageProductDependencies = (
+				1F7F3D4B27AD42C900EE1324 /* Alamofire */,
+			);
 			productName = GitOlek;
 			productReference = 1F7F3D1727AD40C000EE1324 /* GitOlek.app */;
 			productType = "com.apple.product-type.application";
@@ -165,24 +240,6 @@
 			productReference = 1F7F3D2D27AD40C300EE1324 /* GitOlekTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1F7F3D3627AD40C300EE1324 /* GitOlekUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1F7F3D4727AD40C300EE1324 /* Build configuration list for PBXNativeTarget "GitOlekUITests" */;
-			buildPhases = (
-				1F7F3D3327AD40C300EE1324 /* Sources */,
-				1F7F3D3427AD40C300EE1324 /* Frameworks */,
-				1F7F3D3527AD40C300EE1324 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1F7F3D3927AD40C300EE1324 /* PBXTargetDependency */,
-			);
-			name = GitOlekUITests;
-			productName = GitOlekUITests;
-			productReference = 1F7F3D3727AD40C300EE1324 /* GitOlekUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -200,10 +257,6 @@
 						CreatedOnToolsVersion = 13.2.1;
 						TestTargetID = 1F7F3D1627AD40C000EE1324;
 					};
-					1F7F3D3627AD40C300EE1324 = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 1F7F3D1627AD40C000EE1324;
-					};
 				};
 			};
 			buildConfigurationList = 1F7F3D1227AD40C000EE1324 /* Build configuration list for PBXProject "GitOlek" */;
@@ -215,13 +268,15 @@
 				Base,
 			);
 			mainGroup = 1F7F3D0E27AD40C000EE1324;
+			packageReferences = (
+				1F7F3D4A27AD42C900EE1324 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 1F7F3D1827AD40C000EE1324 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				1F7F3D1627AD40C000EE1324 /* GitOlek */,
 				1F7F3D2C27AD40C300EE1324 /* GitOlekTests */,
-				1F7F3D3627AD40C300EE1324 /* GitOlekUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -234,17 +289,13 @@
 				1F7F3D2727AD40C300EE1324 /* LaunchScreen.storyboard in Resources */,
 				1F7F3D2427AD40C300EE1324 /* Assets.xcassets in Resources */,
 				1F7F3D2227AD40C000EE1324 /* Main.storyboard in Resources */,
+				1F8582D827AEB40700144710 /* PullRequestCell.xib in Resources */,
+				1F5DB49B27AFF8BF000F0359 /* EmptyResponseCell.xib in Resources */,
+				1F8582D227AEA23A00144710 /* IssueCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1F7F3D2B27AD40C300EE1324 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1F7F3D3527AD40C300EE1324 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,9 +309,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F7F3D1F27AD40C000EE1324 /* ViewController.swift in Sources */,
+				1F8B329527ADAC9F0002653F /* RepositoryDetailsVC.swift in Sources */,
+				1F8582D127AEA23A00144710 /* IssueCell.swift in Sources */,
+				1F7F3D5027AD834C00EE1324 /* RepositoryCell.swift in Sources */,
+				1F7F3D1F27AD40C000EE1324 /* SearchVC.swift in Sources */,
+				1F8582D427AEAE2900144710 /* PullsModel.swift in Sources */,
+				1F7F3D4E27AD69CC00EE1324 /* RepositoryModel.swift in Sources */,
+				1F8B329727ADB3E50002653F /* APIService.swift in Sources */,
+				1FB3993927B0A50900DC2FBE /* RepositoryListsTableViewExtension.swift in Sources */,
+				1F8582D727AEB40700144710 /* PullRequestCell.swift in Sources */,
+				1F5DB49A27AFF8BF000F0359 /* EmptyResponseCell.swift in Sources */,
+				1F7F3D5227AD874200EE1324 /* RepositoryListVC.swift in Sources */,
+				1FB3993B27B0A59000DC2FBE /* RepositoryListSearchBarExtension.swift in Sources */,
+				1FB3993427B0A0BE00DC2FBE /* RepositoryDetailsTableViewExtension.swift in Sources */,
+				1FB3993627B0A13500DC2FBE /* Extensions.swift in Sources */,
+				1F7F3D5427AD87F600EE1324 /* Constants.swift in Sources */,
 				1F7F3D1B27AD40C000EE1324 /* AppDelegate.swift in Sources */,
 				1F7F3D1D27AD40C000EE1324 /* SceneDelegate.swift in Sources */,
+				1F8582CE27AE9B1100144710 /* IssuesModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,16 +334,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F7F3D3227AD40C300EE1324 /* GitOlekTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1F7F3D3327AD40C300EE1324 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1F7F3D3E27AD40C300EE1324 /* GitOlekUITestsLaunchTests.swift in Sources */,
-				1F7F3D3C27AD40C300EE1324 /* GitOlekUITests.swift in Sources */,
+				1F5C79DB27B248140081D3E0 /* GlobalExtensionsTests.swift in Sources */,
+				1F5C79DF27B266F90081D3E0 /* APIServiceTests.swift in Sources */,
+				1F5C79DD27B253570081D3E0 /* RepositoryListVCTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,11 +347,6 @@
 			isa = PBXTargetDependency;
 			target = 1F7F3D1627AD40C000EE1324 /* GitOlek */;
 			targetProxy = 1F7F3D2E27AD40C300EE1324 /* PBXContainerItemProxy */;
-		};
-		1F7F3D3927AD40C300EE1324 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1F7F3D1627AD40C000EE1324 /* GitOlek */;
-			targetProxy = 1F7F3D3827AD40C300EE1324 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -528,42 +582,6 @@
 			};
 			name = Release;
 		};
-		1F7F3D4827AD40C300EE1324 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 87K6AG3XHL;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.olza.GitOlekUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = GitOlek;
-			};
-			name = Debug;
-		};
-		1F7F3D4927AD40C300EE1324 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 87K6AG3XHL;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.olza.GitOlekUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = GitOlek;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -594,16 +612,26 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1F7F3D4727AD40C300EE1324 /* Build configuration list for PBXNativeTarget "GitOlekUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1F7F3D4827AD40C300EE1324 /* Debug */,
-				1F7F3D4927AD40C300EE1324 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1F7F3D4A27AD42C900EE1324 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1F7F3D4B27AD42C900EE1324 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1F7F3D4A27AD42C900EE1324 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1F7F3D0F27AD40C000EE1324 /* Project object */;
 }
